@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sec-1 {
+  margin: 0;
+  padding-left: 3%;
+
+  display: flex;
+}
+.sec-1-position {
+  margin-top: 5%;
+  padding-left: 4%;
+  width: 40%;
+}
+.sec-1-position img {
+  width: 110%;
+}
+.sec-1-position h1 {
+  font-size: 314%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dimgray;
+}
+.perag {
+  font-size: 150%;
+  color: dimgray;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link {
+  margin-top: 12%;
+}
+a {
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 20px 35px;
+  color: white;
+  font-weight: 800;
+  font-size: 150%;
+}
+.sec-2-position img {
+  padding-left: 35%;
+  width: 60%;
+}
+.sec-2-position {
+  padding-top: 80px;
+  width: 40%;
+  padding-left: 4%;
+  padding-right: 8%;
+}
+.sec-2 {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  background-image: url("images/7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.hed {
+  font-size: 300%;
+  padding: 5%;
+  padding-left: 0;
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mid-body {
+  text-align: center;
+  padding: 5% 22%;
+}
+.box-p {
+  margin: 2%;
+  border-radius: 30px;
+  border: solid white;
+  box-shadow: 5px 7px 40px gray;
+  border-image-slice: 1;
+  height: 80%;
+  width: 30%;
+  padding: 1%;
+}
+.box-p img {
+  width: 100%;
+}
+.bot {
+  display: flex;
+  padding: 0 5% 5% 5%;
+}
+.hed2 {
+  padding: 4%;
+  font-size: xx-large;
+}
+.pera {
+  font-size: 150%;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec-4 {
+  display: flex;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  border-radius: 19px;
+  border: solid white;
+  box-shadow: 5px 7px 10px gray;
+  border-image-slice: 1;
+  width: 84%;
+  padding: 1%;
+  margin-top: 6%;
+}
+.posi {
+  margin: left 0;;
+  padding: 3% 11%;
+}
+footer {
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.911);
+  color: dimgray;
+  text-align: center;
+  padding: 3% 7% 7% 7%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec-3 {
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  display: flex;
+}
+.hed3 {
+  font-size: 300%;
+  padding: 5%;
+  padding-left: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fo{
+  padding:5%;
+  color: rgba(255, 255, 255, 0.801);
+}
