@@ -2,6 +2,31 @@
   margin: 0;
   padding: 0;
 }
+
+.top-nav {
+  padding: 1%;
+  text-align: center;
+  margin-top: 20px;
+  background-color:orange;
+  border: solid 10px tomato;
+  border-radius: 10px;
+}
+
+.top-nav li {
+  display: inline-block;
+  padding-left: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+a:hover {
+  color: rgb(25, 221, 221);
+}
 .sec-1 {
   margin: 0;
   padding-left: 3%;
@@ -30,7 +55,7 @@
 .link {
   margin-top: 12%;
 }
-a {
+.link a {
   background-image: linear-gradient(orange, tomato);
   border-radius: 40px;
   text-decoration: none;
@@ -109,7 +134,7 @@ a {
   margin-top: 6%;
 }
 .posi {
-  margin: left 0;;
+  margin: left 0;
   padding: 3% 11%;
 }
 footer {
@@ -134,7 +159,29 @@ footer {
   padding-left: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.fo{
-  padding:5%;
+.fo {
+  padding: 5%;
   color: rgba(255, 255, 255, 0.801);
+}
+.last{
+  text-align: center;
+  padding: 5%;
+}
+.input-box{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid blue;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.secondary-button{
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: linear-gradient( rgb(20, 224, 20),rgb(124, 122, 255));
 }
